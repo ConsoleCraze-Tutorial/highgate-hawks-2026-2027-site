@@ -1,0 +1,29 @@
+/* FAQ Button Styles Only */
+
+.faq-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;                /* Ensures it stays above other content */
+    background-color: #ffffff;     /* White background for contrast */
+    color: #007bff;                /* Blue text to match your theme */
+    padding: 10px 24px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+}
+
+.faq-button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Optional: make it look more like a button on mobile/touch */
+.faq-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
